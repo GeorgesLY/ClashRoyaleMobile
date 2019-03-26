@@ -80,9 +80,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder> {
 
         holder.txtFooter.setText(clash.getMaxLevel());
 
-        Glide.with(context)
-                .load(clash.getUrl())
-                .into(holder.img);
+        Glide.with(context).load(clash.getUrl()).into(holder.img);
 
     }
 

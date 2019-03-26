@@ -84,7 +84,7 @@ public class MainActivity extends AppCompatActivity {
                 intent.putExtra("description", items.getMaxLevel());
                 intent.putExtra("name", items.getName());
 
-                //intent.putExtra("image",items.getUrl());
+                intent.putExtra("image",items.getUrl());
                 startActivity(intent);
             }
 

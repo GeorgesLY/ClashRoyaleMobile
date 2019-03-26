@@ -1,13 +1,19 @@
 package com.example.clashroyale;
 
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.example.clashroyale.model.Items;
+
+import java.util.List;
+
 public class SecondActivity extends AppCompatActivity {
-    //private Context context;
-    //private List<Items> values;
+    private Context context;
+    private List<Items> values;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
@@ -16,14 +22,14 @@ public class SecondActivity extends AppCompatActivity {
 
         TextView name = findViewById(R.id.firstLine);
         TextView description = findViewById(R.id.secondLine);
-        //ImageView image = findViewById(R.id.icon);
+        ImageView image = findViewById(R.id.icon);
 
 
         Intent intent = getIntent();
         name.setText(intent.getStringExtra("name"));
         description.setText(intent.getStringExtra("description"));
 
-        //image.setImageBitmap(intent.getStringExtra("image"));
+        //Glide.with(context).load(ClipData.Item.getUrl()).into(holder.img);
 
 
 
