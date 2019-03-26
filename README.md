@@ -13,7 +13,7 @@ https://github.com/GeorgesLY/ClashRoyaleMobile
 
 
 ## Travail fait :
- Appels API
+ Reprise de l'API Clash Royal et simplification de celui ci
  Utilisation du RecyclerView pour afficher la liste
  2 Ecrans (2 Activité) :
        - 1er Ecran: Liste des items avec l’image, le nom et le niveau max de chaque personnage
