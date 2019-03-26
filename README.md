@@ -23,8 +23,7 @@ https://github.com/GeorgesLY/ClashRoyaleMobile
        -2e Ecran : Affichage sur le click de l'item.
        Image et nom en grand et niveau max
 
-      
-
+![55833078_473330483202224_2935447513584369664_n](https://user-images.githubusercontent.com/48284991/55038869-80b58280-5022-11e9-9f56-70fdcabacb76.jpg)
 
 
 ## Travail en cours :
